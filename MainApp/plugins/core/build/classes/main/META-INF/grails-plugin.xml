@@ -1,0 +1,18 @@
+<plugin name='core' version='0.1' grailsVersion='3.1.5 &gt; *'>
+  <type>core.CoreGrailsPlugin</type>
+  <grailsVersion>3.1.5 &gt; *</grailsVersion>
+  <authorEmail></authorEmail>
+  <pluginExcludes>[grails-app/views/error.gsp]</pluginExcludes>
+  <author>Your name</author>
+  <documentation>http://grails.org/plugin/core</documentation>
+  <profiles>[web]</profiles>
+  <name>core</name>
+  <description>Brief summary/description of the plugin.
+</description>
+  <title>Core</title>
+  <version />
+  <resources>
+    <resource>core.UrlMappings</resource>
+    <resource>core.CorePluginClass</resource>
+  </resources>
+</plugin>
